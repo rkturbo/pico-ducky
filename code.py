@@ -59,7 +59,7 @@ async def run_payload_on_startup():
             payload = selectPayload()
             await asyncio.sleep(0.1)
             print("Running")
-            awaitrunScript(payload)
+            await runScript(payload)
     else:
         print("Done")
 
